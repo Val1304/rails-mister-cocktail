@@ -1,11 +1,2 @@
-<h1>Doses#new</h1>
-<p>Find me in app/views/doses/new.html.erb</p>
-
-
-<div class="container">
-  <%= simple_form_for [@cocktail, @dose] do |f| %>
-    <%= f.input :description, label "Add a descritpion" %>
-    <%= f.input :ingredient_id, collection: @ingredients, label: "Choose ingredient" include_blank: false %>
-     <%= f.submit "Add the dose", class: "btn btn-primary" %>
-  <% end %>
-</div>
+<h1> Add a Dose to your Cocktail</h1>
+<% render 'form' %>

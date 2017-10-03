@@ -1,2 +1,10 @@
-<h1> Add a Dose to your Cocktail</h1>
-<% render 'form' %>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+      <h1> Add a Dose </h1>
+      <%= render 'form_dose' %>
+      <%= link_to 'Back', cocktail_path(@cocktail)%>
+    </div>
+  </div>
+</div>
+

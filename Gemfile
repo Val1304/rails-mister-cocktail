@@ -37,6 +37,7 @@ gem 'autoprefixer-rails'
 gem 'jquery-rails'
 
 gem 'faker'
+gem 'figaro'
  # Add this line if you use Rails 5.1
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
